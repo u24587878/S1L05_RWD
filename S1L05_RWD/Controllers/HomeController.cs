@@ -25,5 +25,10 @@ namespace S1L05_RWD.Controllers
             
             return View();
         }
+
+        public ActionResult Consult()
+        {
+            return View();
+        }
     }
 }

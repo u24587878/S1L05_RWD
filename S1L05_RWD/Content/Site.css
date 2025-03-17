@@ -17,3 +17,10 @@ body {
     margin-bottom: 60px;
     background-color: var(--light);
 }
+/* So this code does not appear when i run the program on chrome? */
+@media (max-width: 700px) {
+    #myCarousel {
+        display: none;
+    }
+}
+
